@@ -6,7 +6,7 @@ RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
 RUN apt-get install -y imagemagick
 RUN apt-get update
 
-ARG MYSQL_DATABASE='spreedb'
+ARG MYSQL_DATABASE='innodb'
 ARG MYSQL_HOST='127.0.0.1'
 ARG MYSQL_PASSWORD
 ARG MYSQL_USER='root'
