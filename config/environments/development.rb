@@ -52,6 +52,7 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.web_console.whiny_requests = false
+ config.action_cart_link.disable_request_forgery_protection = true
+
 
 end
