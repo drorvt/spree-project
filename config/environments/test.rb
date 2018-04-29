@@ -39,6 +39,6 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
-  config.action_cart_link.disable_request_forgery_protection = true
+  config.web_console.whiny_requests = false
 
 end
