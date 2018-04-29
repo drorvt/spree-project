@@ -10,7 +10,6 @@ RUN gem install mysql2
 ENV APP_HOME /app
 
 
-#ARG MYSQL_DATABASE='innodb'
 ARG MYSQL_DATABASE='spree'
 ARG MYSQL_HOST='spree.czojtxwbowoe.us-east-1.rds.amazonaws.com'
 ARG MYSQL_PASSWORD='d8705069'
