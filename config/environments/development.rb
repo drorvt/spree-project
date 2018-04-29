@@ -52,8 +52,11 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.web_console.whiny_requests = false
+  # config/application.rb
 
+  config.web_console.whitelisted_ips = '37.142.226.148'
+  # or a whole network
+  config.web_console.whitelisted_ips = '37.142.0.0/16'
 
 
 end
