@@ -1,6 +1,6 @@
 FROM ruby:2.4.1
 
-MAINTAINER haim.marko@gmail.com
+MAINTAINER drorvt@gmail.com
 
 RUN apt-get update -qq && apt-get install -y build-essential libmysqlclient-dev nodejs
 RUN apt-get install -y imagemagick
