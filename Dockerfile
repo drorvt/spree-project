@@ -9,7 +9,7 @@ RUN gem install mysql2
 
 ENV APP_HOME /app
 
-ARG MYSQL_DATABASE='spreeDB'
+ARG MYSQL_DATABASE='spreedb'
 ARG MYSQL_USER='myspree'
 ARG MYSQL_PASSWORD='d8705069'
 ARG MYSQL_HOST='spreedb.czojtxwbowoe.us-east-1.rds.amazonaws.com'
