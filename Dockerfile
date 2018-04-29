@@ -1,6 +1,6 @@
 FROM ruby:2.4.1
 
-MAINTAINER Eyal.stoler@kenshoo.com
+MAINTAINER drorvt@gmail.com
 
 RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
 RUN apt-get install -y imagemagick
@@ -10,12 +10,11 @@ RUN gem install mysql2
 ENV APP_HOME /app
 
 
-ARG MYSQL_DATABASE='innodb'
-#ARG MYSQL_DATABASE='spree'
-ARG MYSQL_HOST='127.0.0.1'
-ARG MYSQL_PASSWORD
-ARG MYSQL_USER='root'
-
+#ARG MYSQL_DATABASE='innodb'
+ARG MYSQL_DATABASE='spree'
+ARG MYSQL_HOST='sspree.czojtxwbowoe.us-east-1.rds.amazonaws.com'
+ARG MYSQL_PASSWORD='d8705069'
+ARG MYSQL_USER='sqluser'
 ARG MYSQL_PORT=3306
 
 
