@@ -72,8 +72,7 @@ Rails.application.configure do
 
   # Send deprecation notices to registered listeners.
   config.active_support.deprecation = :notify
-  
-  
+
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
@@ -89,11 +88,4 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-
-    # config/application.rb
-
-  config.web_console.whitelisted_ips = '37.142.226.148'
-  # or a whole network
-  config.web_console.whitelisted_ips = '37.142.0.0/16'
-  
 end
