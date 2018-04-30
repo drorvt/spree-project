@@ -1,4 +1,4 @@
-test
+test 2
 # spree-project
 
 This is a basic bare rails + spree project with a dedicated Dockerfile that enables running this spree app without any ruby\rails related installation/configuration.
