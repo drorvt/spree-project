@@ -10,10 +10,10 @@ RUN gem install mysql2
 ENV APP_HOME /app
 
 
-ARG MYSQL_DATABASE='spree'
-ARG MYSQL_HOST='spree.czojtxwbowoe.us-east-1.rds.amazonaws.com'
+ARG MYSQL_DATABASE='spreedb'
+ARG MYSQL_USER='myspree'
 ARG MYSQL_PASSWORD='d8705069'
-ARG MYSQL_USER='sqluser'
+ARG MYSQL_HOST='spreedb.czojtxwbowoe.us-east-1.rds.amazonaws.com'
 ARG MYSQL_PORT=3306
 
 
